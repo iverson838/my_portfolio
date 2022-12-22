@@ -1,15 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import bannerlogo from "../assets/banner-logo.png";
+
 import navlogo from "../assets/navlogo.png";
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
-  const [scrolled, setScrolled] = useState(false);
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);

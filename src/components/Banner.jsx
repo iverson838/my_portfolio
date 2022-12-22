@@ -82,7 +82,7 @@ const Banner = () => {
                       <a
                         style={{ textDecoration: "none", color: "white" }}
                         href={CV}
-                        download
+                        download="AndreMachado_CV"
                       >
                         Download CV
                       </a>
