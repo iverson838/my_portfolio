@@ -1,7 +1,12 @@
 import React from "react";
 import logo from "../assets/banner-logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faConnectdevelop,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 import "font-awesome/css/font-awesome.min.css";
 
 const Footer = () => {
@@ -14,9 +19,9 @@ const Footer = () => {
       ></img>
       <div className="flex">
         <FontAwesomeIcon icon={faLinkedin} className="linked" />
-
         <FontAwesomeIcon icon={faGithub} className="linked" />
-        <FontAwesomeIcon icon={faLinkedin} className="linked" />
+        <FontAwesomeIcon icon={faConnectdevelop} className="linked" />
+        <FontAwesomeIcon icon={faInstagram} className="linked" />
       </div>
     </footer>
   );

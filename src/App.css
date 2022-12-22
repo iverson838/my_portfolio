@@ -91,7 +91,6 @@ p.danger {
 }
 
 nav.navbar {
-  padding: 18px 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -361,19 +360,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background-color: #6b8e23;
+  background-color: #596e79;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: 60px;
+  opacity: 0.8;
 }
 .skill h2 {
-  color: #d04764;
-  font-family: "Lobster", cursive;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 48px;
-  margin: 0 0 18px;
+  color: white;
+  font-weight: 600;
+  font-size: 45px;
+
+  line-height: 55px;
+  margin: 0 0 50px;
   text-shadow: 1px 0 0 #fff;
 }
 .skill p {
@@ -454,7 +454,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   width: 0;
   height: 100%;
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(to right, #decba4, #3e5151);
   top: 0;
   left: 0;
   z-index: -1;
@@ -551,17 +551,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .navbar-brand img {
   height: auto;
   width: auto;
-  max-width: 200px;
-  max-height: 150px;
-  margin-right: 500px;
-  overflow: hidden;
+  max-width: 300px;
+  max-height: 200px;
+
   transition: all 0.2s ease;
   vertical-align: middle;
 }
 
 .nav-container {
-  max-height: 100px;
-  margin-left: 500px;
+  max-height: 140px;
+  margin-right: 500px;
 }
 
 /* CSS */
@@ -608,6 +607,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .footer {
+  display: flex;
   text-align: center;
   margin-top: auto;
   padding: 0px;
@@ -618,4 +618,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .linked {
   width: 50px;
   height: 50px;
+}
+
+.project h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 55px;
+  margin: 0 0 50px;
+  text-shadow: 1px 0 0 #fff;
 }

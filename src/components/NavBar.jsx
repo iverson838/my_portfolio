@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-import navlogo from "../assets/navlogo.png";
+import navlogo from "../assets/banner-logo.png";
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");

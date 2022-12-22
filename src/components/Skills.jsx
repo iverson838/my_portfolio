@@ -42,11 +42,7 @@ const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>The Stack</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
-              </p>
+
               <Carousel
                 responsive={responsive}
                 infinite={true}
@@ -81,10 +77,6 @@ const Skills = () => {
                   <h5>Mongoose</h5>
                 </div>
                 <div className="item">
-                  <img src={react} alt="react-logo" />
-                  <h5>React</h5>
-                </div>
-                <div className="item">
                   <img src={git} alt="git-logo" />
                   <h5>Git</h5>
                 </div>
@@ -99,6 +91,10 @@ const Skills = () => {
                 <div className="item">
                   <img src={sql} alt="sql-logo" />
                   <h5>SQL</h5>
+                </div>
+                <div className="item">
+                  <img src={react} alt="react-logo" />
+                  <h5>React</h5>
                 </div>
               </Carousel>
             </div>

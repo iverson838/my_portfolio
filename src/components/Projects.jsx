@@ -14,11 +14,10 @@ const Projects = () => {
         <Container>
           <Row>
             <Col className="skill-bx wow zoomIn">
-              <div className="projectsH2">
-                Proj<i>e</i>cts
+              <div>
+                <h2>Projects</h2>
               </div>
 
-              <p> lorem ipsui</p>
               <Tab.Container id="projects" defaultActiveKey="first">
                 <Nav variant="pills" defaultActiveKey="/home">
                   <Nav.Item>
