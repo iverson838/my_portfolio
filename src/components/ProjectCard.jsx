@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
   const projectsArray = [
     {
       title: "IronDOC",
-      content: "first project done, just using HTML,CSS and Javascript",
+      content: "First done project done,using HTML,CSS and Javascript",
       demo: "https://irondoc.netlify.app/",
       repo: "https://github.com/iverson838/irondoc-2022",
       eventKey: "IronDOC",
@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
     },
     {
       title: "Who Won",
-      content: "first project done, just using HTML,CSS and Javascript",
+      content: "Back-End project, using NodeJS, Mongoose and Handlebars",
       demo: "https://who-won.onrender.com/",
       repo: "https://github.com/iverson838/whowon",
       eventKey: "Who Won",
@@ -24,7 +24,7 @@ const ProjectCard = (props) => {
     },
     {
       title: "IronShark",
-      content: "first project done, just using HTML,CSS and Javascript",
+      content: "Full-Stack aplicaton, using React, NodeJS and Mongoose",
       demo: "https://iron-shark.netlify.app/",
       repo: "https://github.com/iverson838/ironShark",
       eventKey: "IronShark",
@@ -41,7 +41,7 @@ const ProjectCard = (props) => {
         style={{
           width: "30rem",
           height: "20rem",
-          margin: "20px auto",
+          margin: "30px auto",
         }}
       >
         <Card.Body
@@ -51,9 +51,9 @@ const ProjectCard = (props) => {
             backgroundSize: "130%",
           }}
         >
-          <Card.Title>{cardData[0].title}</Card.Title>
-
-          <Card.Text>{cardData[0].content}</Card.Text>
+          <Card.Text style={{ color: "white" }}>
+            {cardData[0].content}
+          </Card.Text>
           <Card.Link href={cardData[0].demo}>
             <button className="button-card">Demo</button>
           </Card.Link>

@@ -92,7 +92,12 @@ const Banner = () => {
                       className="button-56"
                       onClick={() => console.log("connect")}
                     >
-                      Let’s Connect
+                      <a
+                        href="#footer"
+                        style={{ textDecoration: "none", color: "white" }}
+                      >
+                        Let's Connect
+                      </a>
                     </button>
                   </div>
                 </div>

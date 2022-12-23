@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
   faGithub,
-  faConnectdevelop,
+  faWeixin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import "font-awesome/css/font-awesome.min.css";
@@ -18,10 +18,34 @@ const Footer = () => {
         alt="brandlogo"
       ></img>
       <div className="flex">
-        <FontAwesomeIcon icon={faLinkedin} className="linked" />
-        <FontAwesomeIcon icon={faGithub} className="linked" />
-        <FontAwesomeIcon icon={faConnectdevelop} className="linked" />
-        <FontAwesomeIcon icon={faInstagram} className="linked" />
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://www.linkedin.com/in/andre-om/"
+        >
+          <FontAwesomeIcon icon={faLinkedin} className="linked" />
+        </a>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://github.com/iverson838"
+        >
+          <FontAwesomeIcon icon={faGithub} className="linked" />
+        </a>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="mailto:aeomachado@gmail.com"
+        >
+          <FontAwesomeIcon icon={faWeixin} className="linked" />
+        </a>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://www.instagram.com/andre.mac838/"
+        >
+          <FontAwesomeIcon icon={faInstagram} className="linked" />
+        </a>
       </div>
     </footer>
   );
